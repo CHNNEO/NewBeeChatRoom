@@ -1,5 +1,5 @@
 '''
-name:甘乐
+name:NewBeeTeam
 date:2018.7.3
 project:网络聊天室(图形界面)
         服务器端
