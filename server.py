@@ -13,7 +13,7 @@ import time
 from mysql_python import *
 import os
 import sys
-
+#======================================================================
 
 class ChatServer():
     def __init__(self):
@@ -43,7 +43,7 @@ class ChatServer():
         self.udpServer.setblocking(False)
 
         self.listSocket = [self.tcpServer,self.udpServer]
-
+#==================================================================
     def run(self):
         while True:
             try:
